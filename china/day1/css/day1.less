@@ -1,0 +1,142 @@
+@import url("reset.css");
+//display:inline;  双倍边距
+//封装宽 高 背景
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.r{
+    position:relative;
+}
+//绝对定位
+.a{
+    position: absolute;
+}
+//全局变量
+*{
+    margin:0  auto;//居中
+}
+//
+#body{
+   .whb(1010px,428px,0); 
+   margin-top: 60px;
+   h2{
+       display: block;
+       .whb(370px,40px,#f8fbff); 
+       border-top: 3px solid #60a5f2;
+       font-size: 20px;
+       line-height: 40px;
+       color: #02407B;
+       span{
+           display: block;
+           .whb(40px,40px,0);
+           .f(left); 
+           margin-left: 8px;
+       }
+       form{
+           .f(right);
+           font-size: 12px;
+           margin-top: 2px;
+           margin-right: ;
+       }
+       
+   }
+   h3{
+       line-height: 38px;
+       font-size: 18px;
+       color: #034079;
+   }
+   
+}
+#left{
+    .whb(370px,426px,0);
+    .f(left);
+    margin-right: 16px;
+    
+    p{
+        line-height: 28px;
+        margin-left: 14px;
+        color: #02407b;
+    }
+    .pp{
+        border-bottom: dashed 2px #cacaca;
+    }
+    
+}
+#center{
+    .whb(363px,426px,0);
+    .f(left);
+     p{
+        line-height: 28px;
+        margin-left: 14px;
+        color: #02407b;
+    }
+    .p{
+       margin-top: 8px;
+       border-bottom: dashed 2px #cacaca; 
+    }
+    
+    dl{
+        
+       height: 112px;
+       
+       margin-top: 14px;
+       dt{
+          .f(left);
+          margin-right:6px; 
+       } 
+       dd{
+        .f(left);
+         width:173px ;
+         color: #02407b;
+        line-height: 28px;
+        margin-left: 14px;
+        }
+    }
+    
+}
+#right{
+    .whb(230px,426px,#f1f1f1);
+    .f(right);
+    h2{
+       .whb(230px,44px,#f1f1f1); 
+       border-top: none;
+       border-bottom: 2px #fff solid;
+       
+    }
+    ol{
+        height: 240px;
+         padding-left: 10px;
+    li{
+           line-height: 24px;
+          
+           
+       }
+       .first{
+           font-weight: bold;
+           font-size: 16px;
+       }
+    }
+    dl{
+        
+        height: 136px;
+        padding-left: 10px;
+        dt{
+           .f(left); 
+        }
+        dd{
+           .f(left); 
+            line-height: 26px;
+            margin-left: 6px;
+        }
+    }
+    
+}

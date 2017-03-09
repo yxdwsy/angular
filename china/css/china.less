@@ -1,0 +1,164 @@
+@import url("reset.css");
+//封装宽 高 背景
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.r{
+    position:relative;
+}
+//绝对定位
+.a{
+    position: absolute;
+}
+//无背景
+.b{
+    background: none;
+}
+//全局变量
+*{
+    margin:0  auto;//居中
+}
+//通栏
+#headerouther {
+    .whb(100%,40px,#cf0101);
+    border-top: 1px #cfd6e5 solid;
+    border-bottom: 1px #cfd6e5 solid;
+}
+.header{
+    .whb(1002px,40px,#cf0101);
+     ul {
+        .f(left);
+        li {
+            .f(left);
+            color: #fff;
+            line-height: 40px;
+            padding: 0 14px;
+            a {
+                color: #fff;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+//#header
+#header{
+    .whb(1002px,98px,0);
+    border-bottom: 1px solid #ccc;
+     img{
+            .f(left);
+            margin-top: 6px;
+        }
+    .header_r{
+        .f(right);
+        .whb(820px,94px,0);       
+        ul{
+            .f(right);  
+            height: 38px;       
+            border-bottom: 1px dashed #ccc;
+            li{
+                color: red;
+                line-height: 38px; 
+                a{
+                   padding: 0 6px;
+                   color: red; 
+                   span{
+                       color: #000;
+                   }
+                }
+            }
+            
+            
+       }
+        
+        
+        form{
+            .f(right);
+            margin-top: 20px;
+            span{
+                padding: 0 4px;
+                b{
+                    color: #CF0101;
+                }
+                img{
+                    float: none;
+                }
+            }
+            .txt{
+                width: 70px;
+                height: 18px;
+                border: 1px solid #1d6bbe;
+            }
+        }
+    }
+}
+
+
+//nav1
+#nav1{
+    .whb(1002px,70px,0);
+    border-bottom: 1px solid #ccc;
+    ul{
+        .f(left);
+        margin-right: 24px;
+        li{
+            line-height: 30px;
+            a{
+                color: #000;
+                padding: 0 7px;
+            }
+            .first{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+//#nav2
+#nav2{
+    .whb(1002px,82px,pink);
+    .l{
+        .f(left);
+        .whb(490px,82px,pink);
+        p{
+            line-height: 26px;
+           
+            span{
+                padding: 0 5px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

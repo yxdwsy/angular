@@ -1,0 +1,126 @@
+@import url("reset.css");
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+.b {
+  background: none;
+}
+* {
+  margin: 0  auto;
+}
+#headerouther {
+  width: 100%;
+  height: 40px;
+  background: #cf0101;
+  border-top: 1px #cfd6e5 solid;
+  border-bottom: 1px #cfd6e5 solid;
+}
+.header {
+  width: 1002px;
+  height: 40px;
+  background: #cf0101;
+}
+.header ul {
+  float: left;
+}
+.header ul li {
+  float: left;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 14px;
+}
+.header ul li a {
+  color: #fff;
+  padding: 0 10px;
+}
+#header {
+  width: 1002px;
+  height: 98px;
+  background: 0;
+  border-bottom: 1px solid #ccc;
+}
+#header img {
+  float: left;
+  margin-top: 6px;
+}
+#header .header_r {
+  float: right;
+  width: 820px;
+  height: 94px;
+  background: 0;
+}
+#header .header_r ul {
+  float: right;
+  height: 38px;
+  border-bottom: 1px dashed #ccc;
+}
+#header .header_r ul li {
+  color: red;
+  line-height: 38px;
+}
+#header .header_r ul li a {
+  padding: 0 6px;
+  color: red;
+}
+#header .header_r ul li a span {
+  color: #000;
+}
+#header .header_r form {
+  float: right;
+  margin-top: 20px;
+}
+#header .header_r form span {
+  padding: 0 4px;
+}
+#header .header_r form span b {
+  color: #CF0101;
+}
+#header .header_r form span img {
+  float: none;
+}
+#header .header_r form .txt {
+  width: 70px;
+  height: 18px;
+  border: 1px solid #1d6bbe;
+}
+#nav1 {
+  width: 1002px;
+  height: 70px;
+  background: 0;
+  border-bottom: 1px solid #ccc;
+}
+#nav1 ul {
+  float: left;
+  margin-right: 24px;
+}
+#nav1 ul li {
+  line-height: 30px;
+}
+#nav1 ul li a {
+  color: #000;
+  padding: 0 7px;
+}
+#nav1 ul li .first {
+  font-weight: bold;
+}
+#nav2 {
+  width: 1002px;
+  height: 82px;
+  background: #ffc0cb;
+}
+#nav2 .l {
+  float: left;
+  width: 490px;
+  height: 82px;
+  background: #ffc0cb;
+}
+#nav2 .l p {
+  line-height: 26px;
+}
+#nav2 .l p span {
+  padding: 0 5px;
+  font-size: 10px;
+}

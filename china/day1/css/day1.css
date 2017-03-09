@@ -1,0 +1,126 @@
+@import url("reset.css");
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+* {
+  margin: 0  auto;
+}
+#body {
+  width: 1010px;
+  height: 428px;
+  background: 0;
+  margin-top: 60px;
+}
+#body h2 {
+  display: block;
+  width: 370px;
+  height: 40px;
+  background: #f8fbff;
+  border-top: 3px solid #60a5f2;
+  font-size: 20px;
+  line-height: 40px;
+  color: #02407B;
+}
+#body h2 span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: 0;
+  float: left;
+  margin-left: 8px;
+}
+#body h2 form {
+  float: right;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-right: ;
+}
+#body h3 {
+  line-height: 38px;
+  font-size: 18px;
+  color: #034079;
+}
+#left {
+  width: 370px;
+  height: 426px;
+  background: 0;
+  float: left;
+  margin-right: 16px;
+}
+#left p {
+  line-height: 28px;
+  margin-left: 14px;
+  color: #02407b;
+}
+#left .pp {
+  border-bottom: dashed 2px #cacaca;
+}
+#center {
+  width: 363px;
+  height: 426px;
+  background: 0;
+  float: left;
+}
+#center p {
+  line-height: 28px;
+  margin-left: 14px;
+  color: #02407b;
+}
+#center .p {
+  margin-top: 8px;
+  border-bottom: dashed 2px #cacaca;
+}
+#center dl {
+  height: 112px;
+  margin-top: 14px;
+}
+#center dl dt {
+  float: left;
+  margin-right: 6px;
+}
+#center dl dd {
+  float: left;
+  width: 173px ;
+  color: #02407b;
+  line-height: 28px;
+  margin-left: 14px;
+}
+#right {
+  width: 230px;
+  height: 426px;
+  background: #f1f1f1;
+  float: right;
+}
+#right h2 {
+  width: 230px;
+  height: 44px;
+  background: #f1f1f1;
+  border-top: none;
+  border-bottom: 2px #fff solid;
+}
+#right ol {
+  height: 240px;
+  padding-left: 10px;
+}
+#right ol li {
+  line-height: 24px;
+}
+#right ol .first {
+  font-weight: bold;
+  font-size: 16px;
+}
+#right dl {
+  height: 136px;
+  padding-left: 10px;
+}
+#right dl dt {
+  float: left;
+}
+#right dl dd {
+  float: left;
+  line-height: 26px;
+  margin-left: 6px;
+}
